@@ -1,6 +1,6 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* 
@@ -9,9 +9,31 @@ header section styles
 ========================
 */
 .fa-search:before {
-    content: "\f002";
-    position: relative;
-    right: 2rem;
-    color:#b9b5b5 !important;
-    cursor: pointer;
+  content: "\f002";
+  position: relative;
+  right: 2rem;
+  color: #b9b5b5 !important;
+  cursor: pointer;
+}
+.banner-heading {
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+span.carousel-control-prev-icon,
+span.carousel-control-next-icon {
+  display: none;
+}
+#carousel-row {
+  background: #feeae9 !important;
+}
+.price {
+  font-family: Poppins;
+  font-weight: 500;
+  color: #ff136f;
+}
+
+button.btn.btn-primary {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+  border:none;
 }
